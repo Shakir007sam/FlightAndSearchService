@@ -6,7 +6,7 @@ const setupAndStartServer= async()=>{
     const app=express();
     // start the app
     app.listen(PORT,()=>{
-        console.log(`Server started at ${PORT}`);  //here we have done string interpolation
+      console.log(`Server started at ${PORT}`);  //here we have done string interpolation
     });
 }
 setupAndStartServer();
