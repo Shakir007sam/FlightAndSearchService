@@ -17,8 +17,10 @@
 }
 ```
 - Once you've added your db config as listed above,go to the scr folder from your terminal and execute `npx sequelize db:create`
+and then exceute 
+`npx sequelize db:migrate`
 ```
-##DB Design
+## DB Design
   - Airplane Table
   - Flight
   - Airport
